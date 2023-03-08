@@ -1,0 +1,52 @@
+.contactInfo{
+    margin: 20px 90px;
+    width: 540px;
+}
+.nameSection{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-weight: normal;
+    font-size: 32px;
+}
+#detailedName{
+    font-weight: normal;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.modifySection{
+    width:170px;
+    display: flex;
+    justify-content: space-between;
+}
+.modify{
+    display: flex;
+}
+.modify:hover{
+    cursor: pointer;
+}
+.editSymbol{
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+.deleteSymbol{
+    width: 20px;
+    height: 25px;
+    margin: auto;
+}
+.btn{
+    margin-left: 5px;
+}
+.content{
+    margin-top: 15px;
+    display: flex;
+    font-size: 17px;
+}
+pre{
+    margin-left: 5px;
+}

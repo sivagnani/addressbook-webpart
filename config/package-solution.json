@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "addressbook-client-side-solution",
+    "id": "cb6d73ef-8dfc-4ece-bdf8-13cc331f7734",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "addressbook description"
+      },
+      "longDescription": {
+        "default": "addressbook description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "addressbook Feature",
+        "description": "The feature that activates elements of the addressbook solution.",
+        "id": "8012eee0-f249-4a8b-87ce-40b9210567f1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/addressbook.sppkg"
+  }
+}

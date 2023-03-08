@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://7zmht7.sharepoint.com/sites/AddressBook/_layouts/15/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://7zmht7.sharepoint.com/sites/AddressBook"
+    }
+  }
+}

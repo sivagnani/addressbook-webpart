@@ -1,0 +1,24 @@
+.activeCard>.eachContactSummary{
+    border-width: 0.5px;
+    border-color: #d0d0d0;
+    border-style: solid;
+    padding: 5px 10px;
+    background-color: #cee7f2;
+}
+.inActiveCard>.eachContactSummary{
+    border-width: 0.5px;
+    border-color: #d0d0d0;
+    border-style: solid;
+    padding: 5px 10px;
+}
+.eachContactSummary:hover{
+    background-color: #cee7f2;
+    cursor: pointer;
+}
+.Name{
+    font-weight:lighter;
+    font-size: 32px;
+}
+.details{
+    font-weight: lighter;
+}
