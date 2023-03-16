@@ -6,6 +6,5 @@ export interface IContactInfoProps{
     edit:()=>void;
 }
 export interface IContactInfoState{
-    isMounted:boolean;
     contact:Contact;
 }

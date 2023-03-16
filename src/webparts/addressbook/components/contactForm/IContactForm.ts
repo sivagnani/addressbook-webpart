@@ -17,5 +17,4 @@ export interface IContactFormState{
     formError:string;
     isAdd:boolean;
     shouldValidate:boolean;
-    isMounted:boolean;
 }

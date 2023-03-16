@@ -11,15 +11,12 @@ class ContactInfo extends React.Component<IContactInfoProps, IContactInfoState>{
     constructor(props: IContactInfoProps){
         super(props);
         this.state={
-            isMounted:false,
             contact:emptyContact,
         }
     }
     componentDidMount(): void {
-        if(!this.state.isMounted){
             let contact:Contact=this.service.getContactById(this.props.contactList,parseInt(this.props.params.id,10));
-            this.setState({contact:contact,isMounted:true});
-        }
+            this.setState({contact:contact});
     }
     componentDidUpdate(prevProps: Readonly<IContactInfoProps>, prevState: Readonly<IContactInfoState>, snapshot?: any): void {
         if(prevProps!==this.props){

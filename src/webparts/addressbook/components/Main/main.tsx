@@ -10,6 +10,7 @@ import { Contact } from '../../model';
 import { Services} from '../../services/services';
 import { emptyContact } from '../../constants';
 import {  Route, Routes} from 'react-router-dom';
+
 class Main extends React.Component<IRouterProps,IRouterState>{
   service = new Services();
   constructor(props:IRouterProps){
@@ -29,6 +30,7 @@ class Main extends React.Component<IRouterProps,IRouterState>{
         contactList:contacts,
       })
     })
+    
     }
   handleForm(showAddForm:boolean):void{
     this.setState({
